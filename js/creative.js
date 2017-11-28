@@ -114,7 +114,7 @@
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
             center: location,
-            zoom: 15,
+            zoom: 50,
             panControl: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }

@@ -286,3 +286,11 @@ dt {
 .list-group {
   font-size: 13px;
 }
+
+.dropdown {
+  background-color: white;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 1px 1px;
+  z-index: 1;
+}
