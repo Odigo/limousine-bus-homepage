@@ -17,12 +17,12 @@ hr.light {
   border-color: #fff; }
 
 a {
-  color: #f37928;
+  color: white;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:hover {
-    color: #f37928; }
+    color: white; }
 
 h1,
 h2,
@@ -294,3 +294,16 @@ dt {
   padding: 1px 1px;
   z-index: 1;
 }
+
+.btn-secondary {
+  background-color: #0060AE;
+  border-color: white;
+  border-style: solid;
+ }
+  .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+    color: white;
+    background-color: #F37928 !important;
+    border-color: #F37928;
+    border-style: solid; }
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }

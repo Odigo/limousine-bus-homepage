@@ -95,7 +95,6 @@
           var contentString = '<div class="info-window">' +
                               '<h3>' + item.html() + '</h3>' +
                               '<div class="info-content">' +
-                              '<p>Get directions ></p>' +
                               '</div>' +
                               '</div>';
 
@@ -113,6 +112,7 @@
 
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
+            gestureHandling: "none",
             center: location,
             zoom: 50,
             panControl: false,
