@@ -130,7 +130,7 @@
 
         var bounds = new google.maps.LatLngBounds();
 
-        $.each($('#places').children(), function(index, item) {
+        $.each($('#places').find("li"), function(index, item) {
           item = $(item);
 
           var location = new google.maps.LatLng(item.data('lat'), item.data('lng'));
